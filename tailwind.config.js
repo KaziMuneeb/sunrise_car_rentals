@@ -8,9 +8,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        banner: "url('/images/banner.jpg')",
+        contact: "url('/images/contact.jpg')",
+      },
+      colors: {
+        "vivid-orange": "#FFA633",
+        "base-color": "#201F1D",
+        "bg-grey": "#f2f2f2",
       },
     },
   },
