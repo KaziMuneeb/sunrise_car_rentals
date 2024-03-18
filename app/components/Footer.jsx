@@ -9,9 +9,9 @@ function Footer() {
   return (
     <div className=" bg-base-color">
       <div className="p-4 sm:py-10 text-slate-100 space-y-8 sm:space-y-12 sm:w-11/12 sm:mx-auto">
-        <ul className="grid sm:grid-cols-3 gap-5">
+        <ul className="grid sm:grid-cols-3 gap-5 items-start">
           <li className="flex items-center gap-5">
-            <span className="rounded-full bg-vivid-orange p-3">
+            <span className="rounded-full bg-vivid-orange p-3 self-start">
               <MdAddCall className="text-xl text-base-color font-semibold sm:text-2xl" />
             </span>
             <span>
@@ -22,7 +22,7 @@ function Footer() {
             </span>
           </li>
           <li className="flex items-center gap-5">
-            <span className="rounded-full bg-vivid-orange p-3">
+            <span className="rounded-full bg-vivid-orange p-3 self-start">
               <CiMail className="text-xl text-base-color font-semibold sm:text-2xl" />
             </span>
             <span>
@@ -33,7 +33,7 @@ function Footer() {
             </span>
           </li>
           <li className="flex items-center gap-5">
-            <span className="rounded-full bg-vivid-orange p-3">
+            <span className="rounded-full bg-vivid-orange p-3 self-start">
               <IoLocationOutline className="text-xl text-base-color font-semibold sm:text-2xl" />
             </span>
             <span>
