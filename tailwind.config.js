@@ -15,6 +15,7 @@ module.exports = {
         "vivid-orange": "#FFA633",
         "base-color": "#201F1D",
         "bg-grey": "#f2f2f2",
+        "text-grey": "#787878",
       },
     },
   },
