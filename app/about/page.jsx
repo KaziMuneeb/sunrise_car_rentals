@@ -1,14 +1,14 @@
 function page() {
   return (
     <div className="w-11/12 mx-auto ">
-      <div className="grid 2xl:grid-cols-2 sm:gap-x-16 gap-y-5">
+      <div className="grid lg:grid-cols-2 sm:gap-x-16 gap-y-5">
         <div className="relative sm:px-5">
           <div className="bg-vivid-orange absolute w-7/12 h-full rounded-xl flex items-center justify-start">
             <span className=" -rotate-90 transform h-fit pb-28 text-slate-50 font-semibold sm:text-3xl sm:pb-64">
               15+ Years of experience
             </span>
           </div>
-          <div className=" relative z-10 pl-16 py-5 sm:py-6">
+          <div className=" relative z-10 pl-16 py-5 sm:py-6 ">
             <img
               src="/images/about-us_image.png"
               alt="abt_image"
@@ -17,10 +17,10 @@ function page() {
           </div>
         </div>
         <div className=" self-center">
-          <h1 className="text-2xl text-base-color sm:text-4xl font-semibold sm:mb-5">
+          <h1 className="text-2xl text-base-color lg:text-2xl font-semibold ">
             Welcome to Sunrise Car Rental
           </h1>
-          <span className="text-text-grey text-sm sm:text-lg">
+          <span className="text-text-grey text-xs sm:text-sm  lg:text-sm xl:text-lg">
             We take the pleasure of introducing ourselves as an enterprising and
             customer Oriented Travel Agency located in Aurangabad, self name and
             style of{" "}
