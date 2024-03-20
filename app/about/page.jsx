@@ -1,20 +1,19 @@
 function page() {
   return (
     <div className="w-11/12 mx-auto ">
-      <div className="grid sm:grid-cols-2 sm:gap-x-16 gap-y-5">
+      <div className="grid 2xl:grid-cols-2 sm:gap-x-16 gap-y-5">
         <div className="relative sm:px-5">
-          <div className="bg-vivid-orange absolute w-7/12 h-full rounded-xl flex items-centre justify-center">
-            {/* absolute top-[16rem] -left-20 text-xl */}
-            <span className=" -rotate-90 transform ">
+          <div className="bg-vivid-orange absolute w-7/12 h-full rounded-xl flex items-center justify-start">
+            <span className=" -rotate-90 transform h-fit pb-28 text-slate-50 font-semibold sm:text-3xl sm:pb-64">
               15+ Years of experience
             </span>
           </div>
           <div className=" relative z-10 pl-16 py-5 sm:py-6">
-            {/* <img
+            <img
               src="/images/about-us_image.png"
               alt="abt_image"
               className="rounded-xl "
-            /> */}
+            />
           </div>
         </div>
         <div className=" self-center">
