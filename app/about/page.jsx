@@ -1,10 +1,32 @@
+import { RiServiceLine } from "react-icons/ri";
+import { MdCarRental } from "react-icons/md";
+import { GiReceiveMoney } from "react-icons/gi";
+
+const whyChooseUs = [
+  {
+    title: "Our Services",
+    desc: "Sunrise Car Rental is well known and oldest car rental services in Aurangabad and offering luxurious Car Rental Services to tourists.",
+    logo: <RiServiceLine />,
+  },
+  {
+    title: "Our Fleet",
+    desc: "Sunrise Car Rental Aurangabad, enjoys a high reputation for providing reliable, personalized, and professional services. Trust us for Reliable & Premium Car Rental Services in Aurangabad.",
+    logo: <MdCarRental />,
+  },
+  {
+    title: "Car Rental",
+    desc: "Sunrise Car Rental offer cars on hire in Aurangabad. We offer you a choice to rent a variety of economy cars, Clean Cars and Courteous Drivers on Affordable Rates.",
+    logo: <GiReceiveMoney />,
+  },
+];
+
 function page() {
   return (
-    <div className="w-11/12 mx-auto ">
+    <div className="w-11/12 mx-auto  my-10">
       <div className="grid lg:grid-cols-2 sm:gap-x-16 gap-y-5">
         <div className="relative sm:px-5">
           <div className="bg-vivid-orange absolute w-7/12 h-full rounded-xl flex items-center justify-start">
-            <span className=" -rotate-90 transform h-fit pb-28 text-slate-50 font-semibold sm:text-3xl sm:pb-64">
+            <span className=" -rotate-90 transform h-fit pb-28 text-slate-50 font-semibold sm:text-xl sm:pb-40 lg:text-xl lg:pb-40 xl:text-2xl xl:pb-48">
               15+ Years of experience
             </span>
           </div>
@@ -43,6 +65,19 @@ function page() {
             provide better services to our client.
           </span>
         </div>
+      </div>
+      <div className="grid  md:grid-cols-3 gap-x-10 gap-y-10 my-16 place-items-center ">
+        <h1 className="md:col-span-3">Why Choose Us</h1>
+        {whyChooseUs.map((block) => (
+          <div
+            key={block.title}
+            className=" place-items-center grid self-center"
+          >
+            <span>{block.logo}</span>
+            <h2>{block.title}</h2>
+            <span className="text-center">{block.desc}</span>
+          </div>
+        ))}
       </div>
     </div>
   );
