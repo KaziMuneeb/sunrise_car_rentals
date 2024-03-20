@@ -17,7 +17,7 @@ function page() {
           </div>
         </div>
         <div className=" self-center">
-          <h1 className="text-2xl text-base-color lg:text-2xl font-semibold ">
+          <h1 className=" text-base-color text-xl lg:text-2xl font-semibold xl:text-4xl sm:mb-3 mb-1">
             Welcome to Sunrise Car Rental
           </h1>
           <span className="text-text-grey text-xs sm:text-sm  lg:text-sm xl:text-lg">
