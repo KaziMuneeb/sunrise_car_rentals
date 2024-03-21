@@ -24,7 +24,7 @@ const whyChooseUs = [
 
 function page() {
   return (
-    <div className="w-11/12 mx-auto  my-10">
+    <div className="w-11/12 mx-auto  my-10 ">
       <div className="grid lg:grid-cols-2 sm:gap-x-16 gap-y-5">
         <div className="relative sm:px-5">
           <div className="bg-vivid-orange absolute w-7/12 h-full rounded-xl flex items-center justify-start">
@@ -68,7 +68,7 @@ function page() {
           </span>
         </div>
       </div>
-      <div className="grid  md:grid-cols-3 gap-x-10 gap-y-3 sm:gap-y-5 md:gap-y-7 lg:gap-y-10 my-16 items-start">
+      <div className="grid  md:grid-cols-3 gap-x-10 gap-y-3 sm:gap-y-5 md:gap-y-7 lg:gap-y-10 my-10 sm:my-12 md:my-14 lg:my-20 items-start">
         <h1 className="md:col-span-3 justify-self-center sm:text-xl md:text-2xl lg:text-3xl font-semibold sm:font-extrabold text-base-color">
           WHY CHOOSE US
         </h1>
