@@ -2,21 +2,23 @@ import { RiServiceLine } from "react-icons/ri";
 import { MdCarRental } from "react-icons/md";
 import { GiReceiveMoney } from "react-icons/gi";
 
+const logoClass =
+  "text-xl text-base-color font-semibold sm:text-2xl md:text-3xl  lg:text-4xl";
 const whyChooseUs = [
   {
     title: "Our Services",
     desc: "Sunrise Car Rental is well known and oldest car rental services in Aurangabad and offering luxurious Car Rental Services to tourists.",
-    logo: <RiServiceLine />,
+    logo: <RiServiceLine className={logoClass} />,
   },
   {
     title: "Our Fleet",
     desc: "Sunrise Car Rental Aurangabad, enjoys a high reputation for providing reliable, personalized, and professional services. Trust us for Reliable & Premium Car Rental Services in Aurangabad.",
-    logo: <MdCarRental />,
+    logo: <MdCarRental className={logoClass} />,
   },
   {
     title: "Car Rental",
     desc: "Sunrise Car Rental offer cars on hire in Aurangabad. We offer you a choice to rent a variety of economy cars, Clean Cars and Courteous Drivers on Affordable Rates.",
-    logo: <GiReceiveMoney />,
+    logo: <GiReceiveMoney className={logoClass} />,
   },
 ];
 
@@ -66,15 +68,21 @@ function page() {
           </span>
         </div>
       </div>
-      <div className="grid  md:grid-cols-3 gap-x-10 gap-y-10 my-16 place-items-center ">
-        <h1 className="md:col-span-3">Why Choose Us</h1>
+      <div className="grid  md:grid-cols-3 gap-x-10 gap-y-3 sm:gap-y-5 md:gap-y-7 lg:gap-y-10 my-16 items-start">
+        <h1 className="md:col-span-3 justify-self-center sm:text-xl md:text-2xl lg:text-3xl font-semibold sm:font-extrabold text-base-color">
+          WHY CHOOSE US
+        </h1>
         {whyChooseUs.map((block) => (
           <div
             key={block.title}
-            className=" place-items-center grid self-center"
+            className=" justify-items-center grid hover hover:bg-bg-grey cursor-pointer hover:rounded-xl p-5 space-y-3 sm:space-y-5"
           >
-            <span>{block.logo}</span>
-            <h2>{block.title}</h2>
+            <span className="rounded-full bg-vivid-orange p-3 self-start">
+              {block.logo}
+            </span>
+            <h2 className="sm:text-base md:text-lg lg:text-xl font-semibold">
+              {block.title}
+            </h2>
             <span className="text-center">{block.desc}</span>
           </div>
         ))}
