@@ -1,9 +1,16 @@
+import { FaThumbsUp } from "react-icons/fa6";
+
 function page() {
   return (
-    <div>
-      <div className="sm:bg-banner bg-no-repeat bg-center bg-cover p-5 ">
-        <div className="sm:grid justify-between sm:grid-cols-2  sm:w-11/12 sm:mx-auto">
-          <div className="space-y-3 sm:space-y-10 ">
+    <div className=" ">
+      <div className="sm:bg-banner bg-no-repeat bg-center bg-cover p-5 h-banner-height flex items-center">
+        <div className="sm:grid justify-between sm:grid-cols-2 gap-10 sm:w-11/12 sm:mx-auto shrink  ">
+          <div className="space-y-3 sm:space-y-5  self-center">
+            <p className="flex gap-3 items-center bg-white p-5 rounded-xl w-fit font-semibold">
+              <FaThumbsUp className="text-vivid-orange" />
+              <span>100% Trusted car rental platform in the World</span>
+            </p>
+
             <h1 className="text-xl font-bold sm:text-5xl">
               Find Your Best <br />
               <span className="text-vivid-orange">Dream Car for Rental</span>

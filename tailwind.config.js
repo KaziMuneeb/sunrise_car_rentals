@@ -17,6 +17,9 @@ module.exports = {
         "bg-grey": "#f2f2f2",
         "text-grey": "#787878",
       },
+      height: {
+        "banner-height": "90svh",
+      },
     },
   },
   plugins: [],

@@ -10,6 +10,10 @@ const navLinks = [
     url: "/",
   },
   {
+    title: "About Us",
+    url: "/about",
+  },
+  {
     title: "Places to visit",
     url: "/places",
   },
@@ -21,10 +25,6 @@ const navLinks = [
     title: "Contact Us",
     url: "/contact",
   },
-  {
-    title: "About Us",
-    url: "/about",
-  },
 ];
 
 function Navbar() {
@@ -32,7 +32,7 @@ function Navbar() {
   const currentPath = usePathname();
 
   return (
-    <nav className=" p-2 relative sm:w-11/12 sm:mx-auto">
+    <nav className=" p-2  sm:w-11/12 sm:mx-auto sm:h-20">
       <div
         className={`${
           isOpen
@@ -70,7 +70,7 @@ function Navbar() {
             ))}
           </ul>
           <div className="hidden sm:block sm:p-2 sm:bg-vivid-orange sm:text-base-color sm:font-semibold rounded">
-            <button>Listing</button>
+            <button>Bookings</button>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@ function Navbar() {
           <span className="bg-vivid-orange w-4 h-1 block  rounded-md	 "></span>
         </div>
         <div className="grow flex  justify-center">
-          <Logo height={30} width={30} type="small" />
+          <Logo height={70} width={70} type="small" />
         </div>
       </div>
     </nav>
