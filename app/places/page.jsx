@@ -36,11 +36,13 @@ const places = [
 
 function page() {
   return (
-    <div className=" w-11/12 sm:w-11/12 mx-auto  m-5 space-y-10 ">
-      {places.map((place) => (
+    <div className=" w-11/12 sm:w-11/12 mx-auto  m-5 space-y-10  ">
+      {places.map((place, i) => (
         <div
           key={place.title}
-          className="grid lg:grid-cols-2 sm:gap-x-16 gap-y-4 bg-bg-grey rounded-xl py-5 sm:py-10"
+          className={`grid lg:grid-cols-2 sm:gap-x-16 gap-y-4 bg-bg-grey rounded-xl py-5 sm:py-10 ${
+            i % 2 !== 0 ? "reverse-grid-items" : ""
+          }`}
         >
           <div className="relative sm:px-5 ">
             {/* <div className="bg-vivid-orange absolute w-7/12 h-full rounded-xl flex items-center justify-start">
