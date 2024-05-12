@@ -43,19 +43,23 @@ export default function Fleet() {
   return (
     <div className="bg-bg-grey">
       <div className="w-11/12 sm:w-11/12 mx-auto py-10 sm:py-20 ">
-        <h1 className="text-center text-3xl sm:text-4xl sm:tracking-wider	 font-semibold text-base-color mb-5 sm:mb-10  ">
-          OUR FLEET
+        <h1 className="text-center text-xl font-bold sm:text-5xl sm:tracking-wider	 text-base-color mb-5 sm:mb-10  ">
+          <span className="text-vivid-orange"> Our</span> Fleets
         </h1>
         <div className=" grid grid-cols-1 sm:grid-cols-4    gap-y-8 gap-x-8">
           {fleets.map((fleet) => (
-            <Card sx={{ maxWidth: 400 }} key={fleet.name}>
+            <Card
+              sx={{ maxWidth: 400 }}
+              key={fleet.name}
+              className="border-[1px] border-vivid-orange"
+            >
               <CardActionArea>
                 <CardMedia
                   component="img"
                   // height="120"
                   image={fleet.url}
                   alt={fleet.name}
-                  className="h-[250px]  p-3 rounded-2xl"
+                  className="h-[250px]  p-3 rounded-2xl "
                 />
                 <CardContent>
                   <Typography
