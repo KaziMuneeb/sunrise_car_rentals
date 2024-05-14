@@ -33,9 +33,9 @@ const testimonials = [
 
 function Testimonials() {
   const settings = {
-    className: "center",
-    centerMode: true,
-    centerPadding: "120px",
+    // className: "center",
+    // centerMode: true,
+    // centerPadding: "120px",
     // speed: 500,
     dots: true,
     infinite: true,
@@ -74,7 +74,7 @@ function Testimonials() {
   };
   return (
     <div className=" mx-auto py-10 sm:py-28 bg-bg-grey">
-      <h1 className="text-center text-xl font-bold sm:text-5xl sm:tracking-wider text-vivid-orange pb-8 sm:mb-10 ">
+      <h1 className="text-center text-3xl font-bold sm:text-5xl sm:tracking-wider text-vivid-orange pb-8 sm:mb-10 ">
         Testimonials
       </h1>
       <div className="slider-container overflow-hidden  ">

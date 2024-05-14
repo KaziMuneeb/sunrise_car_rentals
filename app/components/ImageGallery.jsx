@@ -17,12 +17,34 @@ const Label = styled(Paper)(({ theme }) => ({
 export default function ImageGallery() {
   return (
     <div className=" py-10 sm:py-20 bg-bg-grey">
-      <h1 className="text-center text-xl font-bold sm:text-5xl sm:tracking-wider text-vivid-orange mb-5 sm:mb-10 ">
+      <h1 className="text-center text-3xl font-bold sm:text-5xl sm:tracking-wider text-vivid-orange mb-5 sm:mb-10 ">
         Gallery
       </h1>
+      <Box sx={{ width: 550 }} className=" mx-auto w-11/12 h-auto  sm:hidden">
+        <Masonry columns={2} spacing={0}>
+          {itemData.map((item, index) => (
+            <div key={index}>
+              {/* <Label>{index + 1}</Label> */}
+              <img
+                srcSet={`${item.img}?w=162&auto=format&dpr=2 2x`}
+                src={`${item.img}?w=162&auto=format`}
+                alt={item.title}
+                loading="lazy"
+                style={{
+                  borderBottomLeftRadius: 4,
+                  borderBottomRightRadius: 4,
+                  display: "block",
+                  width: "100%",
+                }}
+                className="p-1 rounded-2xl"
+              />
+            </div>
+          ))}
+        </Masonry>
+      </Box>
       <Box
         sx={{ width: 500 }}
-        className="w-full h-auto w-11/12 sm:w-11/12 mx-auto"
+        className="w-full h-auto w-11/12 sm:w-11/12 mx-auto hidden sm:block"
       >
         <Masonry columns={4} spacing={2}>
           {itemData.map((item, index) => (

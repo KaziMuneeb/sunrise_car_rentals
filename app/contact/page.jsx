@@ -63,7 +63,7 @@ function page() {
           Location
         </h1>
         <div className="">
-          <form className="grid grid-cols-2 gap-3">
+          <form className="grid sm:grid-cols-2 gap-3">
             <input
               type="text"
               placeholder="Your name"
@@ -82,7 +82,7 @@ function page() {
             <input
               type="text"
               placeholder="Subject"
-              className="p-2 rounded-lg sm:bg-bg-grey sm:p-5"
+              className="p-2 rounded-lg sm:bg-bg-grey sm:p-5 "
             />
             <textarea
               type="text"

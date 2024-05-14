@@ -43,7 +43,7 @@ export default function Fleet() {
   return (
     <div className="bg-bg-grey">
       <div className="w-11/12 sm:w-11/12 mx-auto py-10 sm:py-20 ">
-        <h1 className="text-center text-xl font-bold sm:text-5xl sm:tracking-wider	 text-base-color mb-5 sm:mb-10  ">
+        <h1 className="text-center text-3xl font-bold sm:text-5xl sm:tracking-wider	 text-base-color mb-5 sm:mb-10  ">
           <span className="text-vivid-orange"> Our</span> Fleets
         </h1>
         <div className=" grid grid-cols-1 sm:grid-cols-4    gap-y-8 gap-x-8">
