@@ -9,6 +9,18 @@ function Footer() {
   return (
     <div className=" bg-base-color">
       <div className="p-4 sm:py-10 text-slate-100 space-y-8 sm:space-y-12 sm:w-11/12 sm:mx-auto">
+        <div className="relative">
+          <span className="sm:hidden fixed bottom-3 right-3 z-50 bg-blue-700 p-3 rounded-full">
+            <a href="tel:9890313072">
+              <MdAddCall className="text-3xl  text-white font-semibold " />
+            </a>
+          </span>
+          <span className="hidden sm:block fixed bottom-4 right-4 z-50 bg-[#25d366] p-4 rounded-full">
+            <a href="https://api.whatsapp.com/send?phone=9890313072">
+              <FaWhatsapp className=" text-white font-semibold sm:text-4xl" />
+            </a>
+          </span>
+        </div>
         <ul className="grid sm:grid-cols-3 gap-5 items-start">
           <li className="flex items-center gap-5">
             <span className="rounded-full bg-vivid-orange p-3 self-start">
