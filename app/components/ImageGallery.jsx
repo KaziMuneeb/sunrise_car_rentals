@@ -16,11 +16,14 @@ const Label = styled(Paper)(({ theme }) => ({
 }));
 export default function ImageGallery() {
   return (
-    <div className="w-11/12 sm:w-11/12 mx-auto py-10 sm:py-20 bg-bg-grey">
+    <div className=" py-10 sm:py-20 bg-bg-grey">
       <h1 className="text-center text-xl font-bold sm:text-5xl sm:tracking-wider text-vivid-orange mb-5 sm:mb-10 ">
         Gallery
       </h1>
-      <Box sx={{ width: 500 }} className="w-full h-auto">
+      <Box
+        sx={{ width: 500 }}
+        className="w-full h-auto w-11/12 sm:w-11/12 mx-auto"
+      >
         <Masonry columns={4} spacing={2}>
           {itemData.map((item, index) => (
             <div key={index}>

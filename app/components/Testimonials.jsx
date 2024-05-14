@@ -77,7 +77,7 @@ function Testimonials() {
       <h1 className="text-center text-xl font-bold sm:text-5xl sm:tracking-wider text-vivid-orange pb-8 sm:mb-10 ">
         Testimonials
       </h1>
-      <div className="slider-container  ">
+      <div className="slider-container overflow-hidden  ">
         <Slider {...settings}>
           {testimonials.map((testim, i) => (
             <figure
