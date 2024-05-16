@@ -30,12 +30,12 @@ const fleets = [
     url: "https://busimg.cardekho.com/p/630x420/in/force/traveller-3350-super/force-traveller-3350-super.jpg?imwidth=480&impolicy=resize",
   },
   {
-    name: "Van",
+    name: "Luxury Cars",
     capacity: "17 + Driver",
     lugguage: "2 Big + 2 Small",
     musicPlayer: "Yes",
     ac: "Yes",
-    url: "https://wallpapercave.com/wp/wp7542943.jpg",
+    url: "https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/5-Series-2024/10182/1685002609273/front-left-side-47.jpg",
   },
 ];
 

@@ -51,20 +51,18 @@ function page() {
             <span className="text-vivid-orange">Sunrise Car Rental</span> The
             agency is being managed by Shaikh Imran who accounts for 15 years of
             experience in travel industry aiming to one stop shop for all
-            travels and tours holidays needs under one roof. Sunrise Car Rental
-            aiming to be the{" "}
-            <span className="text-vivid-orange">
-              ONE STOP SHOP FOR ALL TRAVEL AND TOUR NEEDS
-            </span>{" "}
-            of every discerning traveler. F.I.T.S, Groups, Beach Holidays,
-            Incentives,Conferences, Theme Holidays such as Cruise, Camping,
-            Ecological,Educational and Pilgrimage, Sunrise Car Rental is geared
-            to offer excellent value for money with following specialized
-            services to our client. We offer services of domestic airlines
-            ticket like Jet Airways, Indian Airlines, Sahara Airlines,
-            Kingfisher, Spice Jet, Air Deccan, Paramount Airways, Go Air and
-            dealing with all International Airlines with competitive prize and
-            provide better services to our client.
+            travels and tours holidays needs under one roof. <br /> <br />
+            <span className="font-medium text-vivid-orange">
+              {" "}
+              Explore Our Services
+            </span>
+            <br /> • Taxi Service Convenient and reliable taxi services for your
+            everyday travel needs. <br />• Car Rental Service Wide range of
+            vehicles to choose from for any occasion. <br />
+            • Corporate Service Professional travel solutions tailored for
+            corporate clients.
+            <br /> • Airport Drop & Pickup transfers to and from Pune and Mumbai
+            airports.
           </span>
         </div>
       </div>

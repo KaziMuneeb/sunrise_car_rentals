@@ -7,17 +7,17 @@ function Banner() {
           <div className="space-y-3 sm:space-y-5  self-center">
             <p className="flex gap-3 items-center bg-white py-5 rounded-xl w-fit font-semibold">
               <FaThumbsUp className="text-vivid-orange" />
-              <span>100% Trusted car rental platform in the World</span>
+              <span>Making Every Mile Memorable</span>
             </p>
 
             <h1 className="text-xl font-bold sm:text-5xl">
-              Find Your Best <br />
-              <span className="text-vivid-orange">Dream Car for Rental</span>
+              Luxury and Comfort, <br />
+              <span className="text-vivid-orange">Every Mile of the Way</span>
             </h1>
             <p className="sm:text-lg">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
+              At Sunrise Car Rental, we pride ourselves on being an enterprising
+              and customer-oriented travel agency based in Aurangabad.We are
+              dedicated to making your journeys memorable and stress-free.
             </p>
             <button className="bg-vivid-orange font-bold sm:text-xl p-2 rounded">
               View All Cars{" "}

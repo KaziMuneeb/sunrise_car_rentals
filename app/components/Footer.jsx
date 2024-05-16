@@ -30,7 +30,7 @@ function Footer() {
               <h6 className="font-semibold text-sm text-vivid-orange sm:text-lg">
                 Call us
               </h6>
-              <p className="text-xs sm:text-base">+91 9890313072</p>
+              <p className="text-xs sm:text-base">+91 9909090909</p>
             </span>
           </li>
           <li className="flex items-center gap-5">
@@ -41,7 +41,7 @@ function Footer() {
               <h6 className="font-semibold text-sm text-vivid-orange sm:text-lg">
                 Write to us
               </h6>
-              <p className="text-xs sm:text-base">kazimuneeb5@gmail.com</p>
+              <p className="text-xs sm:text-base">sunrise5@gmail.com</p>
             </span>
           </li>
           <li className="flex items-center gap-5">
@@ -63,11 +63,11 @@ function Footer() {
         <ul className="grid sm:grid-cols-3 gap-5 grid-cols-2 sm:gap-x-11">
           <li className="space-y-1 sm:space-y-3 col-span-full sm:col-auto">
             <h3 className="sm:text-2xl">
-              <span className="text-vivid-orange  ">S</span>UNRISE
+              <span className="text-vivid-orange  ">S</span>UNRISE CAR RENTALS
             </h3>
             <p className="text-xs sm:text-lg">
-              Rent a car imperdiet sapien porttito the bibenum ellentesue the
-              commodo erat nesuen.
+              At Sunrise Car Rental, we pride ourselves on being an enterprising
+              and customer-oriented travel agency based in Aurangabad.
             </p>
           </li>
 
@@ -77,17 +77,15 @@ function Footer() {
               <li>
                 <p>About</p>
               </li>
+
               <li>
-                <p>Contact</p>
+                <p>Places to visit</p>
               </li>
               <li>
-                <p>Cars</p>
+                <p>Packages</p>
               </li>
               <li>
-                <p>Car Types</p>
-              </li>
-              <li>
-                <p>Team</p>
+                <p>Contact Us</p>
               </li>
             </ul>
           </li>
