@@ -5,7 +5,7 @@ function Banner() {
       <div className="sm:bg-banner bg-no-repeat bg-center bg-cover p-5 sm:h-banner-height flex items-center">
         <div className="sm:grid justify-between sm:grid-cols-2 gap-10 sm:w-11/12 sm:mx-auto shrink  ">
           <div className="space-y-3 sm:space-y-5  self-center">
-            <p className="flex gap-3 items-center bg-white py-5 rounded-xl w-fit font-semibold">
+            <p className="flex gap-3 items-center py-5 rounded-xl w-fit font-semibold">
               <FaThumbsUp className="text-vivid-orange" />
               <span>Making Every Mile Memorable</span>
             </p>
@@ -20,7 +20,9 @@ function Banner() {
               dedicated to making your journeys memorable and stress-free.
             </p>
             <button className="bg-vivid-orange font-bold sm:text-xl p-2 rounded">
-              View All Cars{" "}
+              <a href="https://api.whatsapp.com/send?phone=9370808989">
+                Book Now
+              </a>
             </button>
           </div>
           <div className="hidden sm:block ">

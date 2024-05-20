@@ -4,7 +4,6 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Masonry from "@mui/lab/Masonry";
 import { styled } from "@mui/material/styles";
-import Link from "next/link";
 
 const Label = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -15,9 +14,9 @@ const Label = styled(Paper)(({ theme }) => ({
   borderBottomLeftRadius: 0,
   borderBottomRightRadius: 0,
 }));
-export default function ImageGallery() {
+export default function Gallery() {
   return (
-    <div className=" py-10 sm:py-20 bg-bg-grey grid gap-y-8">
+    <div className=" py-10 sm:py-20 bg-bg-grey">
       <h1 className="text-center text-3xl font-bold sm:text-5xl sm:tracking-wider text-vivid-orange mb-5 sm:mb-10 ">
         Gallery
       </h1>
@@ -67,11 +66,6 @@ export default function ImageGallery() {
           ))}
         </Masonry>
       </Box>
-      <div className="justify-self-center ">
-        <button className="bg-vivid-orange font-bold sm:text-xl p-2 rounded w-48 ">
-          <Link href={"/gallery"}>View more...</Link>
-        </button>
-      </div>
     </div>
   );
 }

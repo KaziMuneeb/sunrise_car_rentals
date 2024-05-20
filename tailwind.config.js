@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         banner: "url('/images/banner.jpg')",
-        contact: "url('/images/contact.jpg')",
+        contact: "url('/images/contact.png')",
       },
       colors: {
         "vivid-orange": "#FFA633",
@@ -19,6 +19,9 @@ module.exports = {
       },
       height: {
         "banner-height": "90svh",
+      },
+      width: {
+        "map-width": "90vw",
       },
     },
   },

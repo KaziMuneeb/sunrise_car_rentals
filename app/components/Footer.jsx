@@ -4,7 +4,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-
+import Link from "next/link";
 function Footer() {
   return (
     <div className=" bg-base-color">
@@ -53,8 +53,8 @@ function Footer() {
                 Address
               </h6>
               <p className="text-xs sm:text-base">
-                Mohammadi Chowk, Beed By Pass Road, Station
-                Road,Aurangabad-Maharashtra - 431005
+                Shop no- 43 Sant Gadge vyapari mahasankul near bhaji mandi
+                Railway station Aurangabad
               </p>
             </span>
           </li>
@@ -75,22 +75,30 @@ function Footer() {
             <h3 className="text-vivid-orange sm:text-2xl">Quick Links</h3>
             <ul className="text-sm sm:text-lg list-disc list-disc-vivid-orange pl-4">
               <li>
-                <p>About</p>
+                <Link href={"/about"}>
+                  <p>About</p>
+                </Link>
               </li>
 
               <li>
-                <p>Places to visit</p>
+                <Link href={"/places"}>
+                  <p>Places to visit</p>
+                </Link>
               </li>
               <li>
-                <p>Packages</p>
+                <Link href={"/packages"}>
+                  <p>Packages</p>
+                </Link>
               </li>
               <li>
-                <p>Contact Us</p>
+                <Link href={"/contact"}>
+                  <p>Contact Us</p>
+                </Link>
               </li>
             </ul>
           </li>
           <li className="pt-6">
-            <ul className="flex gap-x-3">
+            {/* <ul className="flex gap-x-3">
               <li>
                 <FaWhatsapp className="text-3xl text-white font-semibold sm:text-4xl" />
               </li>
@@ -100,7 +108,7 @@ function Footer() {
               <li>
                 <FaInstagram className="text-3xl text-white font-semibold sm:text-4xl" />
               </li>
-            </ul>
+            </ul> */}
           </li>
         </ul>
       </div>

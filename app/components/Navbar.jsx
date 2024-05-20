@@ -18,8 +18,8 @@ const navLinks = [
     url: "/places",
   },
   {
-    title: "Packages",
-    url: "/packages",
+    title: "Gallery",
+    url: "/gallery",
   },
   {
     title: "Contact Us",
@@ -70,7 +70,11 @@ function Navbar() {
             ))}
           </ul>
           <div className="hidden sm:block sm:p-2 sm:bg-vivid-orange sm:text-base-color sm:font-semibold rounded">
-            <button>Bookings</button>
+            <button>
+              <a href="https://api.whatsapp.com/send?phone=9370808989">
+                Book Now
+              </a>
+            </button>
           </div>
         </div>
       </div>
