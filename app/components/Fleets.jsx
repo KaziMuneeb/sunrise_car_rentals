@@ -6,17 +6,17 @@ import { CardActionArea } from "@mui/material";
 
 const fleets = [
   {
-    name: "Sedan",
+    name: "Toyota Etios",
     capacity: "4 + Driver",
-    lugguage: "2 Big + 2 Small",
+
     musicPlayer: "Yes",
     ac: "Yes",
-    url: "https://static.autox.com/uploads/2021/03/2021-Mercedes-Benz-E-Class-design2.jpg",
+    url: "/images/etios.jpg",
   },
   {
     name: "Toyota Innova Crysta XUV",
     capacity: "6 + Driver",
-    lugguage: "2 Big + 2 Small",
+
     musicPlayer: "Yes",
     ac: "Yes",
     url: "https://stat.overdrive.in/wp-content/odgallery/2020/11/58040_2021_Toyota_innova_crysta_1_468x263.jpg",
@@ -24,15 +24,15 @@ const fleets = [
   {
     name: "Tempo traveller",
     capacity: "17/20/26 + Driver",
-    lugguage: "2 Big + 2 Small",
+
     musicPlayer: "Yes",
     ac: "Yes",
-    url: "https://busimg.cardekho.com/p/630x420/in/force/traveller-3350-super/force-traveller-3350-super.jpg?imwidth=480&impolicy=resize",
+    url: "/images/van.jpg",
   },
   {
     name: "Luxury Cars",
     capacity: "17 + Driver",
-    lugguage: "2 Big + 2 Small",
+
     musicPlayer: "Yes",
     ac: "Yes",
     url: "https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/5-Series-2024/10182/1685002609273/front-left-side-47.jpg",
@@ -77,13 +77,6 @@ export default function Fleet() {
                       </span>
                       {fleet.capacity}
                     </span>{" "}
-                    <br />
-                    <span>
-                      <span className=" font-semibold sm:text-md">
-                        Lugguage:{" "}
-                      </span>
-                      {fleet.lugguage}
-                    </span>
                     <br />
                     <span>
                       <span className=" font-semibold sm:text-md">

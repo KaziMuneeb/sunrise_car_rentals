@@ -72,7 +72,7 @@ export default function ImageGallery() {
 
 const itemData = [
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipP2vt3JXtvZjuUAv1X9WdlJ_gntyzJZCpasLAT1=s680-w680-h510",
+    img: "/images/etios.jpg",
     title: "Breakfast",
   },
   {
