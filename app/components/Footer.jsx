@@ -30,7 +30,7 @@ function Footer() {
               <h6 className="font-semibold text-sm text-vivid-orange sm:text-lg">
                 Call us
               </h6>
-              <p className="text-xs sm:text-base">+91 9909090909</p>
+              <p className="text-xs sm:text-base">+91 93708 08989</p>
             </span>
           </li>
           <li className="flex items-center gap-5">

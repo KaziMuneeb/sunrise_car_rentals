@@ -58,11 +58,11 @@ function page() {
       {places.map((place, i) => (
         <div
           key={place.title}
-          className={`grid lg:grid-cols-2 sm:gap-x-16 gap-y-4 bg-bg-grey rounded-xl py-5 sm:py-10 ${
-            i % 2 !== 0 ? "reverse-grid-items" : ""
-          }`}
+          className={`grid lg:grid-cols-2 sm:gap-x-16 gap-y-4 bg-bg-grey rounded-xl py-5 sm:py-10 `}
         >
-          <div className="relative sm:px-5 ">
+          <div
+            className={`relative sm:px-5 ${i % 2 == 0 ? "sm:order-last" : ""}`}
+          >
             {/* <div className="bg-vivid-orange absolute w-7/12 h-full rounded-xl flex items-center justify-start">
               <span className=" -rotate-90 transform h-fit pb-28 text-slate-50 font-semibold sm:text-xl sm:pb-40 lg:text-xl lg:pb-40 xl:text-2xl xl:pb-48">
                 15+ Years of experience
@@ -79,7 +79,9 @@ function page() {
               />
             </div>
           </div>
-          <div className=" self-center">
+          <div
+            className={` self-center  ${i % 2 == 0 ? "px-3" : "pl-0 sm:pl-5"}`}
+          >
             <h1 className=" hidden sm:block text-base-color text-xl lg:text-2xl font-semibold xl:text-4xl sm:mb-3 mb-1">
               {place.title}
             </h1>
