@@ -20,7 +20,7 @@ function page() {
             <h1 className=" text-3xl font-semibold text-base-color sm:hidden ">
               Contact <span className=" text-vivid-orange">Us</span>
             </h1>
-            <li className="flex items-center gap-5   sm:bg-bg-grey sm:py-8 rounded-lg sm:justify-center sm:basis-72 shrink-0	">
+            <li className="flex flex-col text-center items-center gap-5   sm:bg-bg-grey sm:py-8 rounded-lg sm:justify-center sm:basis-72 shrink-0	">
               <span className="rounded-full bg-vivid-orange p-3">
                 <CiMail className="text-xl text-base-color font-semibold sm:text-2xl" />
               </span>
@@ -31,7 +31,7 @@ function page() {
                 <p className="text-xs sm:text-base">kazimuneeb5@gmail.com</p>
               </span>
             </li>
-            <li className="flex items-center gap-5  sm:bg-bg-grey   sm:py-8 rounded-lg sm:justify-center sm:basis-72 shrink-0	">
+            <li className="flex flex-col text-center items-center gap-5  sm:bg-bg-grey   sm:py-8 rounded-lg sm:justify-center sm:basis-72 shrink-0	">
               <span className="rounded-full bg-vivid-orange p-3">
                 <MdOutlineWatchLater className="text-xl text-base-color font-semibold sm:text-2xl" />
               </span>
@@ -42,7 +42,7 @@ function page() {
                 <p className="text-xs sm:text-base">Open 24 Hrs</p>
               </span>
             </li>
-            <li className="flex items-center gap-5  sm:bg-bg-grey  sm:py-8 rounded-lg sm:justify-center sm:basis-72 shrink-0	">
+            <li className="flex flex-col text-center items-center gap-5  sm:bg-bg-grey  sm:py-8 rounded-lg sm:justify-center sm:basis-72 shrink-0	">
               <span className="rounded-full bg-vivid-orange p-3">
                 <MdAddCall className="text-xl text-base-color font-semibold sm:text-2xl" />
               </span>
@@ -53,7 +53,7 @@ function page() {
                 <p className="text-xs sm:text-base">+91 9890313072</p>
               </span>
             </li>
-            <li className="flex items-center gap-5  sm:bg-bg-grey  sm:py-8 rounded-lg sm:justify-center sm:basis-80 shrink-0	">
+            <li className="flex flex-col text-center items-center gap-5  sm:bg-bg-grey  sm:py-8 rounded-lg sm:justify-center sm:basis-80 shrink-0	">
               <span className="rounded-full bg-vivid-orange p-3">
                 <FaLocationDot className="text-xl text-base-color font-semibold sm:text-2xl" />
               </span>
@@ -62,8 +62,8 @@ function page() {
                   Address
                 </h6>
                 <p className="text-xs sm:text-base">
-                  Shop no- 43 Sant Gadge vyapari mahasankul near bhaji mandi
-                  Railway station Aurangabad
+                  Shop no- 43 Sant Gadge vyapari <br /> mahasankul near bhaji
+                  mandi Railway station Aurangabad
                 </p>
               </span>
             </li>

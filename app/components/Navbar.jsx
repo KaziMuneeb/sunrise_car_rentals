@@ -41,9 +41,9 @@ function Navbar() {
         } sm:flex sm:w-auto sm:relative sm:bg-white sm:h-auto `}
       >
         <div className=" sm:flex sm:flex-row sm:items-center sm:justify-between sm:grow">
-          <span className="flex items-center p-3 bg-white  space-x-8">
+          <span className="flex items-center p-3 bg-white  space-x-8 justify-between">
             <span>
-              <Logo width={170} height={170} />
+              <Logo width={70} height={70} type={"small"} />
             </span>
             <span
               className="text-vivid-orange font-black	sm:hidden"
@@ -90,7 +90,7 @@ function Navbar() {
           <span className="bg-vivid-orange w-4 h-1 block  rounded-md	 "></span>
         </div>
         <div className="grow flex  justify-center">
-          <Logo height={70} width={70} type="small" />
+          <Logo height={170} width={170} type="normal" />
         </div>
       </div>
     </nav>
