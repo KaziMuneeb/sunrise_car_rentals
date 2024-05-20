@@ -32,6 +32,24 @@ const places = [
     imgSrc:
       "https://a-square-hotel.vercel.app/images/places/chhatrapati-shivaji-maharaj-museum.jpg",
   },
+  {
+    title: "Shirdi sai baba ",
+    desc: "Dwarkamai Mandir, where Baba lived, with a temple inside, is the only one of its kind and importance in India. Another interesting aspect of the dwarkamai mandir is that the Dhuni, or holy fire that Sai Baba lit here has been always kept burning to this day. There is a Gurusthan under the Neem tree where, according to Baba, the original samadhi of his own guru is located and Where Baba was found during his Balyog or Yuva avastha.This place is considered to be a very important because of this reason.",
+    imgSrc:
+      "https://www.savaari.com/blog/wp-content/uploads/2021/02/shirdi-sai-temple.jpg",
+  },
+  {
+    title: "Trimbkeshavar",
+    desc: "The temple is located between three hills namely Brahmagiri, Nilagiri and Kalagiri. The temple has three lingas (an iconic form of Shiva) representing Shiva, Vishnu and Brahma. The temple tank is called Amritavarshini, which measured 28 m (92 ft) by 30 m (98 ft). There are three other bodies of water, namely, Bilvatirtha, Viswanantirtha and Mukundatirtha. There are images of various deities, namely, Ganga, Jaleswara, Rameswara, Gautameswara, Kedarnatha, Rama, Krishna, Parashurama and Lakshmi Narayana. The temple also has several monasteries and samadhis of saints.",
+    imgSrc:
+      "https://www.seawatersports.com/img/newimage/places/trimbakeshwar-inmaharashtra.jpg",
+  },
+  {
+    title: "Bhimashankar",
+    desc: "The temple is built in the Nagrara style, which combines traditional and modern designs. The temple hall was constructed during the 18th century by Nāna Phadnavis of Peshwa.[6] The Gopura-shikhara of the temple was built by Nāna Phadnavis. The village of Kharosi was granted to the temple by King Shivaji. The daily religious observance was funded through the financial resources which derived from the people of the area.Bhimashankaram shrine and the Bhimarathi river have been talked about in writings as far back as the 13th century.",
+    imgSrc:
+      "https://templeyatri.in/wp-content/uploads/2024/02/bhimashankar-temple-maharashtra.jpg",
+  },
 ];
 
 function page() {
