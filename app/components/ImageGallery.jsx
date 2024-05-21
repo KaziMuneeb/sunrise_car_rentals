@@ -82,31 +82,31 @@ const itemData = [
     title: "Breakfast",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipPpeZ49lE-Mozeqc7wAT4-1dKH7YN6RSbNp9gZO=s680-w680-h510",
+    img: "/images/1.jpg",
     title: "Burger",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipNuvnmKKoT_Cb_O_SHnSWw-ruFvr-imcE-CNAFk=s680-w680-h510",
+    img: "/images/car-02.jpg",
     title: "Camera",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipPyGzkmNnRqCoAFW7jHPa89XOsG5QDyBO38N_om=s680-w680-h510",
+    img: "/images/car-03.jpg",
     title: "Coffee",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipN0Ze_j0R5geptenf-gVKrXutOcEMfhfps0bwp7=s680-w680-h510",
+    img: "/images/car-04.jpg",
     title: "Hats",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipO4adsSsU1RPvnP50clhgbwFM6QdkA4vqwLY6Gc=s680-w680-h510",
+    img: "/images/car-05.jpg",
     title: "Honey",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipNRL2fAioppR25J5ZRo7K-ktgSjZCbmVvEPnVe1=s680-w680-h510",
+    img: "/images/2.jpg",
     title: "Basketball",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipPshCDhA_c0hk3ysrpLJgmnHkEef23C0oPFsZ_v=s680-w680-h510",
+    img: "/images/foreign.jpg",
     title: "Fern",
   },
   {
@@ -114,15 +114,15 @@ const itemData = [
     title: "Mushrooms",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipN0Ze_j0R5geptenf-gVKrXutOcEMfhfps0bwp7=s680-w680-h510",
+    img: "/images/cresta-new.jpg",
     title: "Tomato basil",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipPHB9lMKP6ruTWQQ4sVJKPDaGutGZvJIgrLXHkl=s680-w680-h510",
+    img: "/images/BMW.jpg",
     title: "Sea star",
   },
   {
-    img: "https://lh3.googleusercontent.com/p/AF1QipOcti92i87AdgH-wUgbCYWSV2rLqJbGqHGB-G2T=s680-w680-h510",
+    img: "/images/Bike.jpg",
     title: "Bike",
   },
 ];

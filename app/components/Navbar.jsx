@@ -36,14 +36,18 @@ function Navbar() {
       <div
         className={`${
           isOpen
-            ? "w-2/3 fixed left-0 top-0 z-50 bg-base-color/95 h-full"
+            ? "w-11/12 fixed left-0 top-0 z-50 bg-base-color/95 h-full"
             : " hidden "
         } sm:flex sm:w-auto sm:relative sm:bg-white sm:h-auto `}
       >
         <div className=" sm:flex sm:flex-row sm:items-center sm:justify-between sm:grow">
           <span className="flex items-center p-3 bg-white  space-x-8 justify-between">
             <span>
-              <Logo width={70} height={70} type={"small"} />
+              {isOpen ? <Logo width={70} height={70} type={"small"} /> : null}
+              {/* <Logo width={170} height={170} type={"normal"} /> */}
+            </span>
+            <span className="hidden sm:block">
+              <Logo width={170} height={170} type={"normal"} />
             </span>
             <span
               className="text-vivid-orange font-black	sm:hidden"
@@ -57,7 +61,7 @@ function Navbar() {
 
           <ul className="flex sm:flex-row flex-col text-slate-200   font-medium  col-span-full self-center  sm:bg-white sm:text-base-color  mt-5 sm:mt-0 gap-6">
             {navLinks.map((link) => (
-              <li key={link.title} onClick={() => setIsOpen(!isOpen)}>
+              <li key={link.title} onClick={() => setIsOpen(false)}>
                 <Link
                   href={link.url}
                   className={`  hover:text-vivid-orange p-3 ${

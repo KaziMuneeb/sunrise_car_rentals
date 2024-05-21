@@ -41,7 +41,9 @@ function Footer() {
               <h6 className="font-semibold text-sm text-vivid-orange sm:text-lg">
                 Write to us
               </h6>
-              <p className="text-xs sm:text-base">sunrise5@gmail.com</p>
+              <p className="text-xs sm:text-base">
+                Aurangabadsunrise@gmail.com
+              </p>
             </span>
           </li>
           <li className="flex items-center gap-5">

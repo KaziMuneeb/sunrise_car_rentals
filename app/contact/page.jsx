@@ -28,7 +28,9 @@ function page() {
                 <h6 className="font-semibold text-sm text-vivid-orange sm:text-lg">
                   Write to us
                 </h6>
-                <p className="text-xs sm:text-base">kazimuneeb5@gmail.com</p>
+                <p className="text-xs sm:text-base">
+                  Aurangabadsunrise@gmail.com
+                </p>
               </span>
             </li>
             <li className="flex flex-col text-center items-center gap-5  sm:bg-bg-grey   sm:py-8 rounded-lg sm:justify-center sm:basis-72 shrink-0	">
